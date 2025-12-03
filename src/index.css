@@ -1,0 +1,274 @@
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;   
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.navbar button {
+  padding: 8px 18px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #eef1f6;
+}
+
+.login-page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-box {
+  width: 380px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+}
+
+.login-img {
+  width: 150px;
+  margin: 10px 0;
+}
+
+
+h2 {
+  margin-bottom: 10px;
+}
+
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: 0.3s;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+
+.forgot {
+  text-align: right;
+  font-size: 14px;
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.signup-container {
+  width: 360px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  border: 2px solid #ccc;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  color: #333;
+}
+
+.signup-container h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.signup-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #bbb;
+  font-size: 15px;
+  outline: none;
+  background: #f3f3f3;
+  transition: 0.3s;
+}
+
+.signup-container input:focus {
+  border-color: #4a90e2;
+  background: white;
+}
+
+
+.signup-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #e64a19;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.signup-container button:hover {
+  background: #357abd;
+}
+
+.signup-container .login-btn {
+  background: #222;
+}
+
+.signup-container .login-btn:hover {
+  background: #000;
+}
+
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+}
+.error {
+  border: 2px solid red !important;
+  background: #ffe6e6; 
+}
+
+
+
+.error {
+  border: 2px solid red;
+}
+
+
+.err-text {
+  color: red;
+  font-size: 13px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+
+.msg {
+  margin-top: 10px;
+  font-size: 15px;
+  color: green;
+  font-weight: bold;
+}
+
+
+.forget-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.forget-box {
+  width: 350px;
+  padding: 25px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 0 10px #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.forget-box h2 {
+  text-align: center;
+}
+
+.forget-box input {
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 6px;
+}
+
+.forget-box button {
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.msg {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+}
+
+
+.error-input {
+  border: 2px solid red !important;
+}
+.msg {
+  color: green;
+  font-size: 16px;
+  margin-top: 10px;
+}
