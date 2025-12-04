@@ -24,7 +24,7 @@ function Login() {
     if (Object.keys(newErrors).length > 0) return;
 
     try {
-      const res = await fetch("https://login-backent.vercel.app/", {
+      const res = await fetch(('https://login-backent.vercel.app/login'), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, email, password }),
